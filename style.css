@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Poppins';
+}
+
+header > div {
+padding: 0 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid lightgray;
+font-size: 13px;
+
+}
+.text {
+    float: left;
+}
+nav {
+width: 600px;
+}
+hr {
+    width: 80%;
+    text-align: center;
+ }
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+float: right;
+
+}
+
+nav ul li {
+    padding: 10px;
+}
+nav a {
+text-decoration: none;
+color: black;
+}
+
+.blackHeart {
+width: 20px;
+margin-right: 1rem;
+}
+
+.containerHeader2 form{
+display: flex;
+align-content: center;
+outline: none;
+width: 100%;
+}
+
+
+
+.containerHeader2 .npmLogo {
+    width: 64px;
+    height: 17px;
+    
+}
+.containerHeader2 input{
+    width: 87%;
+    height: 25px;
+    border: none;
+    text-align: start;
+    background-color: rgba(0,0,0,.05);
+    font-size: 11px;
+    padding-left: 5px;
+    font-family: 'Poppins';
+
+
+}
+
+.containerHeader2 .lupa{
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0,0,0,.05);
+    margin-left: 10px;
+    
+    
+    
+
+}
+
+.containerHeader2 form button {
+    text-align: center;
+    font-size: 10px;
+    width: 60px;
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+    margin-right: 3%;
+}
+
+.containerHeader2 a {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    border: none;
+    padding: 10px 8px;
+    font-size: 10px;
+    text-decoration: none;
+    
+    
+}
+
+
+/* Section 2 */
+
+section {
+    height: 600px;
+    background-color: #F8F4F4;
+    box-shadow: inset 0px 7px 3px -3px rgba(226, 224, 224, 1);
+    
+    
+    
+}
+section h1 {
+    padding-top: 8%;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+section article{
+    display: flex;
+    margin: 30px 30px;
+    
+    
+   
+}
+section article span{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26em;
+}
+
+
+section .articleDiv  {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+
+}
+section .articleDiv button a {
+    width: 100px;
+    text-decoration: none;
+    outline: none;
+}
+section .articleDiv button {
+    width: 200px;
+    height: 43.3px;
+    margin: 20px 30px;
+    border: none;
+    
+}
+
+.buttonOne{
+    background-color: #FB3B49 ;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.buttonOne a{
+    color: white;
+    font-weight: bold;
+}
+
+.buttonTwo{
+    background-color: white;
+}
+.buttonTwo a{
+    color: black;
+    font-weight: bolder;
+}
